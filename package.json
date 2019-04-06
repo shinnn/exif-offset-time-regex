@@ -1,0 +1,53 @@
+{
+	"name": "exif-offset-time-regex",
+	"version": "0.1.0",
+	"description": "A regular expression for Exif time offset tags (±HH:MM)",
+	"repository": "shinnn/exif-offset-time-regex",
+	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
+	"license": "ISC",
+	"scripts": {
+		"prebuild": "eslint .",
+		"build": "rollup --config=node:module",
+		"pretest": "npm run-script build",
+		"test": "node test.js"
+	},
+	"module": "index.mjs",
+	"files": [
+		"index.js",
+		"index.mjs"
+	],
+	"keywords": [
+		"regex",
+		"regexp",
+		"tz",
+		"time",
+		"zone",
+		"timezone",
+		"offset",
+		"utc",
+		"gmt",
+		"exif",
+		"metadata",
+		"jpg",
+		"jpeg",
+		"tif",
+		"tiff",
+		"image",
+		"picture",
+		"photo",
+		"match",
+		"validate",
+		"validation"
+	],
+	"devDependencies": {
+		"@shinnn/eslint-config": "^6.10.0",
+		"eslint": "^5.16.0",
+		"regexp-tree": "0.1.5",
+		"rollup": "^1.9.0",
+		"rollup-config-module": "^2.0.2",
+		"tape": "^4.10.1"
+	},
+	"eslintConfig": {
+		"extends": "@shinnn"
+	}
+}
