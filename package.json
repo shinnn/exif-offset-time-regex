@@ -1,6 +1,6 @@
 {
 	"name": "exif-offset-time-regex",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"description": "A regular expression for Exif time offset tags (±HH:MM)",
 	"repository": "shinnn/exif-offset-time-regex",
 	"author": "Shinnosuke Watanabe (https://github.com/shinnn)",
