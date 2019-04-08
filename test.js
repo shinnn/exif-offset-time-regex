@@ -16,7 +16,6 @@ test('exifOffsetTimeRegex', t => {
 		'should match an Exif zone offset value.'
 	);
 
-	/*
 	t.deepEqual(
 		exifOffsetTimeRegex.exec('-12:00').groups,
 		{
@@ -26,7 +25,6 @@ test('exifOffsetTimeRegex', t => {
 		},
 		'should make use of a named capture group.'
 	);
-	*/
 
 	t.equal(
 		exifOffsetTimeRegex.exec('+15:00'),
