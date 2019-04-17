@@ -4,6 +4,7 @@ workflow "Test" {
 }
 
 action "npm" {
-  uses = "shinnn/actions-npm-alpine@1.0.0"
+  uses = "docker://node:alpine"
+  runs = "npm"
   args = "install-ci-test"
 }
